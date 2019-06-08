@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mx.uabcs.proyecto">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".MiUbicacion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AgregarNota"
+            android:label="@string/Agregar_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VerNota"
+            android:label="@string/Ver_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AgregarNota1"
+            android:label="@string/Agregar_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VerNota1"
+            android:label="@string/Ver_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AgregarNota2"
+            android:label="@string/Agregar_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VerNota2"
+            android:label="@string/Ver_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AgregarNota3"
+            android:label="@string/Agregar_Nota"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VerNota3"
+            android:label="@string/Ver_Nota"
+            android:screenOrientation="portrait"></activity>
+
+
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".NoteActivity" />
+        <activity android:name=".NoteActivity1" />
+        <activity android:name=".NoteActivity2" />
+        <activity android:name=".NoteActivity3" />
+        <activity android:name=".horarios" />
+        <activity android:name=".Login" />
+        <activity android:name=".Calificaciones" />
+        <activity android:name=".Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AgendaActivity"></activity>
+    </application>
+
+</manifest>

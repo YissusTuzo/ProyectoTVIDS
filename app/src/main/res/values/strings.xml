@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Agregar_Nota">Agregar/Editar nota</string>
+    <string name="Ver_Nota">Visualización nota</string>
+
+    <string name="Menu_crear">Crear nota</string>
+    <string name="Menu_editar">Editar nota</string>
+    <string name="Menu_eliminar">Eliminar nota</string>
+    <string name="Menu_eliminar_todas">Eliminar todas las notas</string>
+    <string name="Menu_salir">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

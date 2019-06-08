@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/color">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/uabcs" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/horarios"
+                    android:drawableLeft="@drawable/ic_clases"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_weight="0"
+                    android:text="Horarios"
+                    android:textSize="32dp"
+                    android:textColor="@color/text"/>
+                <TextView
+                    android:id="@+id/calificaciones"
+                    android:layout_width="wrap_content"
+                    android:drawableLeft="@drawable/ic_calificacion"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginLeft="14dp"
+                    android:textSize="32dp"
+                    android:text="Mis calificaciones"
+                    android:textColor="@color/text"/>
+                <TextView
+                    android:id="@+id/note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_note"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:layout_weight="0"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginLeft="14dp"
+                    android:textSize="32dp"
+                    android:text="Mis notas"
+                    android:textColor="@color/text"/>
+                <TextView
+                    android:id="@+id/cuenta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_weight="0"
+                    android:drawableLeft="@drawable/close"
+                    android:drawablePadding="@dimen/activity_horizontal_margin"
+                    android:text="Cerrar Cuenta"
+                    android:textColor="@color/text"
+                    android:textSize="32dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
